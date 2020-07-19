@@ -1,0 +1,13 @@
+.navi-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.logo {
+    height: 20px;
+}
+
+.purple {
+    color: #7512F4;
+}

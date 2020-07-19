@@ -3,4 +3,9 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.purple {
+    color: #7512F4;
 }
