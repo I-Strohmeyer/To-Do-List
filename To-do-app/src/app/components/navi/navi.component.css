@@ -1,13 +1,35 @@
 .navi-wrapper {
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    
+    align-items: center;
+    line-height: 24px;
 }
 
 .logo {
-    height: 20px;
+    height: 24px;
 }
 
-.purple {
-    color: #7512F4;
+.switch {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.switch:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.13);
+    border-radius: 50px;
+}
+
+.darklogo {
+    margin-left: 4px;
+}
+
+.darkicon {
+    stroke: #757575;
+}
+
+.lighticon {
+    stroke: #7512F4;
 }
