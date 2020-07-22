@@ -7,11 +7,27 @@ import { Task } from 'src/app/models/Task';
   styleUrls: ['./todocontainer.component.css']
 })
 export class TodocontainerComponent implements OnInit {
-  todos:Task[];
+  todos: Task[];
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.todos = [
+      {
+        id: 1,
+        title: 'My first To-do',
+        completed: false
+      },
+      {
+        id: 2,
+        title: 'Get my Domain back',
+        completed: false
+      },
+      {
+        id: 3,
+        title: 'Enjoy the vacation',
+        completed: false
+      },
+    ];
   }
-
 }
