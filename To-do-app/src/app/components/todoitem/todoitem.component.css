@@ -1,0 +1,34 @@
+
+.itemwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #FBFBFB;
+    height: 60px;
+    margin-bottom: 28px;
+}
+
+.itemwrapper:hover {
+    border-radius: 50px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.13);
+}
+
+.itemtext {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.deletebtn {
+    border: none;
+    background-color: #FBFBFB;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.removeitem {
+    stroke: #E12D45;
+    background-color: none;
+}
+

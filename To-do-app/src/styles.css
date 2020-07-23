@@ -4,8 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Quicksand', sans-serif;
+    color: #252525;
 }
 
 .purple {
     color: #7512F4;
+}
+
+input, button {
+    outline: none;
 }
