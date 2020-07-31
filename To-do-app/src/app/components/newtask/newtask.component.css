@@ -29,4 +29,16 @@
     z-index: 1;
     position: absolute;
     right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.inner-button {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.svg-add {
+    margin-right: 10px;
 }

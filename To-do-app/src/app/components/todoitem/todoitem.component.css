@@ -32,3 +32,9 @@
     background-color: none;
 }
 
+/* needs to be added*/
+.is-complete {
+    text-decoration: line-through;
+    background-color: yellowgreen;
+}
+

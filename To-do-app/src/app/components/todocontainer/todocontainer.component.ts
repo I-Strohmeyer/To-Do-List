@@ -16,7 +16,7 @@ export class TodocontainerComponent implements OnInit {
       {
         id: 1,
         title: 'My first To-do',
-        completed: false
+        completed: true
       },
       {
         id: 2,
