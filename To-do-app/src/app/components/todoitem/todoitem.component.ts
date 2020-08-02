@@ -23,4 +23,10 @@ export class TodoitemComponent implements OnInit {
 
     return classes;
   }
+
+  // Remove todo-Item on click
+  onDelete(todo) {
+    console.log('delete')
+  }
+
 }

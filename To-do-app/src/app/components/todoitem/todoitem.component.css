@@ -32,9 +32,26 @@
     background-color: none;
 }
 
+.svg-text-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.itemwrapper:hover .hidden {
+    display: inline-block;
+  }
+
 /* needs to be added*/
 .is-complete {
     text-decoration: line-through;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
+    color: #757575;
 }
 
+.is-complete:hover {
+    box-shadow: none;
+}
