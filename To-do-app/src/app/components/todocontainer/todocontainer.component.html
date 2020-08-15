@@ -2,5 +2,9 @@
     <app-navi></app-navi>
     <app-hero></app-hero>
     <app-newtask></app-newtask>
-    <app-todoitem *ngFor="let todo of todos" [todo]="todo"></app-todoitem>
+    <app-todoitem 
+        *ngFor="let todo of todos"
+        [todo]="todo"
+        (deleteTodo)="deleteTodo($event)"
+        ></app-todoitem>
 </div>

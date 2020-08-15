@@ -37,6 +37,13 @@
     align-items: center;
 }
 
+.svg-check {
+    margin: auto;
+    background: red;
+    border: none;
+    border-radius: 50%;
+}
+
 .hidden {
     display: none;
 }
