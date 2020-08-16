@@ -13,8 +13,11 @@
 .switch {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     padding: 0 20px;
     align-items: center;
+    height: 40px;
+    width: 128px
 }
 
 .switch:hover {
