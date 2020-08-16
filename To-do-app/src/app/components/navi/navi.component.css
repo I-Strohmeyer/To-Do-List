@@ -22,10 +22,6 @@
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.13);
 }
 
-.darklogo {
-  margin-left: 4px;
-}
-
 .darklogo,
 .lightlogo {
   display: flex;
