@@ -23,8 +23,18 @@
 .deletebtn {
     border: none;
     background-color: #FBFBFB;
-    margin-right: 10px;
+    margin-right: 5px;
     border-radius: 50%;
+    height: 50px;
+    width: 50px
+}
+
+.deletebtn:hover {
+    background: #E12D45
+}
+
+.deletebtn:hover .removeitem {
+    stroke: white
 }
 
 .removeitem {
@@ -40,6 +50,7 @@
 .svg-check {
     width: 50px;
     height: 50px;
+    margin-left: 5px;
     background: none;
     border: none;
     border-radius: 50%;
