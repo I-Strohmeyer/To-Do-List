@@ -26,6 +26,11 @@
     margin-left: 4px;
 }
 
+.darklogo, .lightlogo {
+    display: flex;
+    align-items: center;
+}
+
 .darkicon {
     stroke: #757575;
 }
