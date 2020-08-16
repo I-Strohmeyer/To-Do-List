@@ -39,6 +39,7 @@
 .darklogo:hover,
 .lightlogo:hover {
   background: #7512f4;
+  cursor: pointer;
 }
 
 .darklogo:hover .darkicon {
