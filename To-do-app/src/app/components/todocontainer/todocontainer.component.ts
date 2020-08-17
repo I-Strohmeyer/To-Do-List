@@ -27,4 +27,11 @@ export class TodocontainerComponent implements OnInit {
     this.myTodoService.deleteTodo(todo).subscribe();
   }
 
+  addTodo(todo: Task) {
+    // Add(post) to server
+    this.myTodoService.addTodo(todo).subscribe( todo => {
+      this.todos.unshift(todo);
+    });
+  }
+
 }
