@@ -1,6 +1,6 @@
 <div class="addtask-wrapper" (ngSubmit)="onSubmit()">
   <form action="" class="form">
-    <input class="task-input" type="text" name="title" [(ngModel)]="title" />
+    <input class="task-input" type="text" name="title" placeholder="Add a task" [(ngModel)]="title" />
     <button class="addbtn" type="submit" value="submit" (click)="onSubmit()">
       <div class="inner-button">
         <svg
@@ -12,6 +12,7 @@
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
+            class="plusicon"
             d="M12 5V19"
             stroke="white"
             stroke-width="2"
@@ -19,6 +20,7 @@
             stroke-linejoin="round"
           />
           <path
+            class="plusicon"
             d="M5 12H19"
             stroke="white"
             stroke-width="2"
@@ -26,7 +28,7 @@
             stroke-linejoin="round"
           />
         </svg>
-        Add task
+        
       </div>
     </button>
   </form>
