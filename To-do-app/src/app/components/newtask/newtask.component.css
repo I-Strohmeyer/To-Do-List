@@ -35,6 +35,10 @@
     padding-right: 49px;
 }
 
+.addbtn:disabled {
+    background-color: green;
+}
+
 .addbtn:hover {
     padding-left: 0px;
     padding-right: 0px;

@@ -7,6 +7,7 @@
     background: #FBFBFB;
     height: 60px;
     margin-bottom: 28px;
+    transition: all 150ms ease-out;
 }
 
 .itemwrapper:hover {
@@ -22,15 +23,33 @@
 
 .deletebtn {
     border: none;
-    background-color: #FBFBFB;
-    margin-right: 5px;
+    background-color: transparent;
     border-radius: 50%;
-    height: 50px;
-    width: 50px
+    height: 60px;
+    width: 60px;
+    padding: 15px;
+    transition: padding 150ms ease-out;
 }
 
 .deletebtn:hover {
-    background: #E12D45
+    padding: 5px;
+}
+
+.deletebtn:active {
+    padding: 0px;
+}
+
+.inner-dbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.deletebtn:hover .inner-dbutton {
+    background: #E12D45;
+    border-radius: 50%;
+    height: 100%;
 }
 
 .deletebtn:hover .removeitem {
