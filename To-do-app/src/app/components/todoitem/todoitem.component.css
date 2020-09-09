@@ -67,19 +67,38 @@
 }
 
 .svg-check {
-    width: 50px;
-    height: 50px;
-    margin-left: 5px;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
     background: none;
     border: none;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: padding 150ms ease-out;
 }
 
 .svg-check:hover {
+    padding: 5px;
+}
+
+.svg-check:active {
+    padding: 0;
+}
+
+.inner-checkicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.svg-check:hover .inner-checkicon {
     background: #7512F4;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 .svg-check:hover .svg-check-line {
