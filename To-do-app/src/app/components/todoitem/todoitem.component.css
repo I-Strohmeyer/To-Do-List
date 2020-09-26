@@ -111,15 +111,22 @@
 
 .itemwrapper:hover .hidden {
     display: inline-block;
-  }
+}
 
-/* needs to be added*/
+.checkmark-svg {
+    display: none;
+}
+
+
 .is-complete {
     text-decoration: line-through;
     /* background-color: yellowgreen; */
-    color: #757575;
+    /* color: #757575; */
+    color: #7512F4;
+    /* background: red; */
 }
 
 .is-complete:hover {
     box-shadow: none;
 }
+

@@ -1,7 +1,7 @@
 <div class="addtask-wrapper" (ngSubmit)="onSubmit()">
   <form action="" class="form">
     <input class="task-input" type="text" name="title" placeholder="Add a task" [(ngModel)]="title" />
-    <button class="addbtn" type="submit" value="submit" (click)="onSubmit()" [disabled]="title === ''">
+    <button class="addbtn" type="submit" value="submit" (click)="onSubmit()" >
       <div class="inner-button">
         <svg
           class="svg-add"
