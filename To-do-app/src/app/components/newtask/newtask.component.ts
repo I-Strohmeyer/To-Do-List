@@ -18,9 +18,11 @@ export class NewtaskComponent implements OnInit {
   onSubmit() {
     const todo = {
       title: this.title,
-      completed: false
+      completed: false,
+      // id: Math.floor(Math.random() * Math.floor(100))
     };
 
+    console.log(todo);
     this.addTodo.emit(todo);
     this.title = '';
   }
