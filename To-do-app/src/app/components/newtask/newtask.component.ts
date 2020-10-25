@@ -22,6 +22,7 @@ export class NewtaskComponent implements OnInit {
     };
 
     this.addTodo.emit(todo);
+    this.title = '';
   }
 
 }

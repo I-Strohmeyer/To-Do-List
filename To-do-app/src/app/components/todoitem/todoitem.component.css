@@ -113,8 +113,12 @@
     display: inline-block;
 }
 
-.checkmark-svg {
-    display: none;
+.checkmark-path {
+    stroke: #7512F4
+}
+
+.svg-check:hover .checkmark-path {
+    stroke: white
 }
 
 
