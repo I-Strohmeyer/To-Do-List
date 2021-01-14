@@ -39,6 +39,7 @@ export class TodoService {
 
   // Add Todo
   addTodo(todo: Task): Observable<Task> {
+    console.log(todo);
     return this.http.post<Task>(this.todosUrl, todo, httpOptions);
   }
 

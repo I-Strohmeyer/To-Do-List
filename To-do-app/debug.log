@@ -31,3 +31,4 @@
 [0815/001237.118:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
 [0815/001237.118:ERROR:exception_snapshot_win.cc(98)] thread ID 17772 not found in process
 [1025/225133.039:ERROR:directory_reader_win.cc(43)] FindFirstFile: Das System kann den angegebenen Pfad nicht finden. (0x3)
+[1026/095719.971:ERROR:directory_reader_win.cc(43)] FindFirstFile: Das System kann den angegebenen Pfad nicht finden. (0x3)
